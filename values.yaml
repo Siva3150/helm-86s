@@ -1,6 +1,6 @@
 deployment: 
  replicas: 4 
- imageVersion: stable-perl
+ imageVersion: latest
 service: 
  type: LoadBalancer 
  servicePort: 80 
