@@ -1,6 +1,6 @@
 deployment: 
  replicas: 4 
- imageVersion: tirex
+ imageVersion: stable-perl
 service: 
  type: LoadBalancer 
  servicePort: 80 
